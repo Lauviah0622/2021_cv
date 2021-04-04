@@ -359,18 +359,22 @@ body {
   &__preview {
     margin: 0;
     > img {
-      height: 13vh;
-      max-height: 9em;
+      // height: 13vh;
+      height: 8em;
+      width: 20vh;
+      // background-color: teal;
+      object-fit: cover;
 
       @include tablet () {
-        height: 10em;
+        // height: 10em;
       }
       
       @include mobile() {
         // height: 15em;
-        max-height: none;
+        min-height: 16em;
         width: 100%;
-        object-fit: contain;
+        object-fit: cover;
+        object-position: top;
         margin: var(--gap-size) 0;
       }
       

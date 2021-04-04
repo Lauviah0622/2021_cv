@@ -333,19 +333,16 @@ body {
   margin: 0;
 }
 .project__preview > img {
-  height: 13vh;
-  max-height: 9em;
-}
-@media screen and (max-width: 1400px) {
-  .project__preview > img {
-    height: 10em;
-  }
+  height: 8em;
+  width: 20vh;
+  object-fit: cover;
 }
 @media screen and (max-width: 900px) {
   .project__preview > img {
-    max-height: none;
+    min-height: 16em;
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
+    object-position: top;
     margin: var(--gap-size) 0;
   }
 }
