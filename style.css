@@ -273,6 +273,7 @@ body {
 .info .contact__item {
   display: block;
   margin-bottom: 0.2em;
+  min-width: 27ch;
 }
 .info .contact__item > i {
   width: 1.5ch;
@@ -336,6 +337,7 @@ body {
   height: 8em;
   width: 20vh;
   object-fit: cover;
+  box-shadow: 0px 0px 4px #33333333;
 }
 @media screen and (max-width: 900px) {
   .project__preview > img {
