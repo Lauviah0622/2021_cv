@@ -359,10 +359,8 @@ body {
   &__preview {
     margin: 0;
     > img {
-      // height: 13vh;
       height: 8em;
       width: 20vh;
-      // background-color: teal;
       object-fit: cover;
 
       @include tablet () {
