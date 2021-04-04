@@ -342,7 +342,7 @@ body {
     min-height: 16em;
     width: 100%;
     object-fit: cover;
-    object-position: top;
+    object-position: top left;
     margin: var(--gap-size) 0;
   }
 }
